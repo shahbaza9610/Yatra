@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo 'code compilation is starting'
                 sh 'mvn clean compile'
-				echo 'code compilation is completed'
+				echo 'code compilation is done'
             }
         }
         stage('Code test') {
