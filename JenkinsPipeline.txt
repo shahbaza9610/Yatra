@@ -28,7 +28,7 @@ pipeline {
             steps {
                 echo 'code compilation is starting'
                 sh 'mvn clean test'
-				echo 'code compilation is completed'
+				echo 'code compilation is done'
             }
         }
         stage('Docker Image') {
